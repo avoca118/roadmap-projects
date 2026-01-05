@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* ---------- Global ---------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    padding: 30px;
+    font-family: "Nunito", sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* ---------- Form Section ---------- */
+.info {
+    max-width: 500px;
+}
+
+.info label {
+    font-weight: 600;
+}
+
+.info input {
+    width: 100%;
+    height: 38px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    font-size: 1rem;
+}
+
+/* Focus state (keyboard accessible) */
+.info input:focus,
+.icon-eye:focus,
+.create-account-btn:focus {
+    outline: 3px solid cornflowerblue;
+    outline-offset: 2px;
+}
+
+/* ---------- Error Message ---------- */
+.error-message {
+    margin: 6px 0 16px;
+    font-size: 0.9rem;
+    color: #b00020;
+}
+
+/* ---------- Password Input + Eye Icon ---------- */
+.input-ps {
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.input-ps input {
+    padding-right: 42px;
+}
+
+.icon-eye {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #000000;
+}
+
+/* ---------- Checklist ---------- */
+.checklist {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.checklist li {
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+}
+
+/* ---------- Submit Button ---------- */
+.create-account-btn {
+    margin-top: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 50px;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    border: none;
+    cursor: pointer;
+}
+
+.create-account-btn:hover {
+    background-color: #2e7d32;
+}
+
+/* ---------- Progress Section ---------- */
+.progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar {
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.progress p {
+    margin-top: 12px;
+    font-size: 1.05rem;
+    font-weight: 500;
+}

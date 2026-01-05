@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="info">
+        <label for="fullName">Full Name</label><br>
+        <input id="fullName" type="text" required aria-required="true"
+            placeholder="What should we call you?">
+        <br><br>
+
+        <label for="email">Email</label><br>
+        <input id="email" type="email" required aria-required="true"
+            aria-invalid="true"
+            aria-describedby="email-error"
+            placeholder="Write your email address">
+        <p id="email-error" class="error-message">Email is already taken</p>
+
+        <label for="password">Enter password</label><br>
+        <div class="input-ps">
+            <input id="password" type="password" required aria-required="true">
+            <button type="button"
+                    class="icon-eye"
+                    aria-label="Show password"
+                    aria-pressed="false">
+                <i class="fa-solid fa-eye"></i>
+            </button>
+        </div>
+
+        <label for="confirmPassword">Confirm password</label><br>
+        <div class="input-ps">
+            <input id="confirmPassword" type="password" required aria-required="true">
+            <button type="button"
+                    class="icon-eye"
+                    aria-label="Show confirm password"
+                    aria-pressed="false">
+                <i class="fa-solid fa-eye"></i>
+            </button>
+        </div>
+
+        <!-- Checklist -->
+        <ul class="checklist">
+            <li>At least 8 characters</li>
+            <li>Contains a number</li>
+            <li>Passwords match</li>
+        </ul>
+
+        <button type="submit" class="create-account-btn">Create Account</button>
+    </section>
+
+    <section class="progress">
+        <div class="progress-bar"
+            role="progressbar"
+            aria-valuenow="65"
+            aria-valuemin="0"
+            aria-valuemax="100">
+            <span>65%</span>
+        </div>
+        <p>Profile Completeness</p>
+    </section>
+
+</body>
+</html>
