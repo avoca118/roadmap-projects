@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            justify-content: center;
+        }
+
+        .changelog {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 90%;
+            max-width: 700px;
+        } 
+
+        .changelog-item {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .date {
+            font-weight: bold;
+            min-width: 180px;
+            border-right: 2px solid black;
+            padding-right: 15px;   
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        footer {
+            margin-top: 30px;
+        }
+
+        footer button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: black;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        @media (max-width: 500px) {
+            .changelog-item {
+                flex-direction: column;
+                align-items: flex-start;
+                border: 2px solid black;
+                padding: 10px 20px;
+            }
+
+            .date {
+                border: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Changelog</h1>
+        <p class="intro">Here's everything we have shipped in the past few days</p>
+    </header>
+
+    <main class="changelog">
+        <div class="changelog-item">
+            <span class="date">September 3, 2024</span>
+            <span class="text">Announcing Projects on Frontend Roadmap</span>
+        </div>
+        <div class="changelog-item">
+            <span class="date">August 28, 2024</span>
+            <span class="text">Build your learning habits with learning streaks</span>
+        </div>
+        <div class="changelog-item">
+            <span class="date">August 25, 2024</span>
+            <span class="text">Git and GitHub Roadmap</span>
+        </div>
+        <div class="changelog-item">
+            <span class="date">August 22, 2024</span>
+            <span class="text">Submit your project solution and get feedback</span>
+        </div>
+        <div class="changelog-item">
+            <span class="date">August 15, 2024</span>
+            <span class="text">Backend Project Ideas</span>
+        </div>
+        <div class="changelog-item">
+            <span class="date">August 10, 2024</span>
+            <span class="text">Redis roadmap</span>
+        </div>
+        <div class="changelog-item">
+            <span class="date">August 1, 2024</span>
+            <span class="text">Changelog page to help you stay in the loop</span>
+        </div>
+    </main>
+    <footer>
+        <button>Visit Complete Changelog</button>
+    </footer>
+</body>
+</html>
