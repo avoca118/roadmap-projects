@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+        body {
+            margin: 0;
+            padding: 20px 0;
+            box-sizing: border-box;
+            font-family: "Nunito", sans-serif;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+            align-items: center;
+            gap: 100px;
+        }
+
+        .first, .sec, .third {
+            display: flex;
+            gap: 50px;
+            width: 100%;
+            max-width: 700px;
+        }
+
+        .message-container, .message-container2 {
+            position: relative;
+            background-color: black;
+            color: white;
+            padding: 15px 20px;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        .message-container::after {
+            content: "";
+            position: absolute;
+            bottom: -10px; 
+            left: 50px;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid black; 
+        }
+
+        .info {
+            display: flex;
+            gap: 20px;
+        }
+
+        .role {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .female {
+            max-width: 50%;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        .messageContainer2 {
+            max-width: 700px;
+            height: auto;
+            border: 2px solid black;
+            padding: 20px 30px;
+            border-radius: 5px;
+        }
+
+        .male {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        i {
+            color: rgb(255, 17, 17);
+        }
+
+        .message-container2{
+            max-width: 500px;
+            height: auto;
+            padding: 20px 30px;
+        }
+
+        .third {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+        }
+
+        .summary {
+            max-width: 70%;
+            text-align: center;
+        }
+
+        .select {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .img-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .small-img {
+            max-width: 20%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .unselected {
+            opacity: 0.5;
+        }
+
+        .arrow {
+            color: black;
+        }
+
+        .selected-name{
+            text-align: center;
+        }
+
+        @media (max-width: 900px) {
+        body {
+            gap: 60px;
+            padding: 40px 20px;
+        }
+
+        .first,
+        .sec {
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .message-container,
+        .message-container2,
+        .messageContainer2 {
+            max-width: 100%;
+        }
+
+        .info {
+            align-items: center;
+        }
+
+        .female {
+            width: 60px;
+            max-width: none;
+        }
+
+        .male {
+            max-width: 100%;
+        }
+
+        .third {
+            padding: 30px 20px;
+        }
+
+        .summary {
+            max-width: 100%;
+        }
+        }
+
+        /* Mobile phones */
+    @media (max-width: 480px) {
+        body {
+            gap: 40px;
+        }
+
+        .first {
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .sec {
+            align-items: center;
+            gap: 30px;
+        }
+
+        .message-container::after {
+            left: 30px;
+        }
+
+        .male {
+            max-width: 50%;
+        }
+
+        .small-img {
+            max-width: 25%;
+        }
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+        }
+    </style>
+</head>
+<body>
+    <section class="first">
+        <div>
+            <div class="message-container">
+                <span>
+                    I have been solving all the project ideas on roadmap.sh and I am surprised how far I have come from where I started.
+
+                    Highly recommended!!
+                </span>
+            </div>
+            <div class="info">
+                <img src="img/snow.jpg" alt="snow" class="female">
+                <div class="role">
+                    <h3>Snow</h3>
+                    <p>Junior Frontend Developer</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="messageContainer2">
+                <span>
+                    Since starting my career in 2021, I have only followed one resource, roadmap.sh, it truly helped me go from 0 to having a job and changing the financial trajectory of my family.
+                </span>
+
+                <div class="info">
+                    <img src="img/alice.jpg" alt="alice" class="female">
+                    <div>
+                        <h3>Alice</h3>
+                        <p>Junior Frontend Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec">
+        <div>
+            <img src="img/bob.jpg" alt="bob" class="male">
+        </div>
+        <div class="message-container2">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+            <h3>Jackie</h3>
+            <p>Engineering Manager</p>
+            <p>I find myself recommending roadmap.sh to all the interness or junior developers. It's a great way to skill up and grow in your career.</p>
+        </div>
+    </section>
+
+    <section class="third">
+        <div class="summary">
+            <p>roadmap.sh is an incredible resource. I was fortunate to discover it during my university days in 2018. Back then, it was just a single repository with three images. It's amazing to see how much impact it has had on millions of lives since then.</p>
+        </div>
+        <div>
+            <div class="select">
+                <i class="fa-solid fa-angle-left arrow"></i>
+                <div class="img-container">
+                    <img src="img/alice.jpg" alt="" class="small-img unselected">
+                    <img src="img/snow.jpg" alt="snow" class="small-img">
+                    <img src="img/bob.jpg" alt="" class="small-img unselected">
+                </div>
+                <i class="fa-solid fa-angle-right arrow"></i>
+            </div>
+            <div><h3 class="selected-name">Snow</h3></div>
+        </div>
+    </section>
+</body>
+</html>
