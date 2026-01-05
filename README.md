@@ -47,7 +47,7 @@ The project starts with a semantic HTML structure, then adds responsive CSS styl
 **Technologies:** HTML5, CSS3  
 
 🔗 [View Project](./personal-portfolio-website)
-🔗 [roadmap.sh project](https://roadmap.sh/projects/personal-portfolio)
+🔗 [roadmap.sh project][(https://roadmap.sh/projects/portfolio-website)]
 
 ---
 
