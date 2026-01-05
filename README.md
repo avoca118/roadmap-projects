@@ -89,6 +89,16 @@ The form is static and prepared for future JavaScript functionality.
 
 ---
 
+### Image Grid Layout  
+Focus: CSS Grid & responsive layouts  
+A responsive image grid layout built using HTML and CSS, arranging six images based on a provided mockup.  
+The project focuses on practicing CSS Grid structure, item placement, alignment, and spacing across different screen sizes.
+
+🔗 [View Project](https://github.com/avoca118/roadmap-projects/tree/main/07-image-grid-layout)
+🔗 [roadmap.sh project](https://roadmap.sh/projects/image-grid)
+
+---
+
 ## 🛠 Technologies Used
 - HTML5  
 - CSS3  
