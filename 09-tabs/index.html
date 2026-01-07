@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300..900&display=swap');
+
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 8px;
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .tabs li {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #tab1 {
+            border-bottom: 2px solid black;
+        }
+
+        #tab2, #tab3, #tab4 {
+            opacity: 0.5;
+        }
+
+        .box {
+            min-height: 300px;
+            padding: 20px;
+            background-color: black;
+            border: 4px solid white;
+            color: white;
+            border-top: 0 none;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        #box2, #box3, #box4 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="tabs">
+        <li id="tab1" onclick="one()">Overview</li>
+        <li id="tab2" onclick="two()">Projects</li>
+        <li id="tab3" onclick="three()">Messages</li>
+        <li id="tab4" onclick="four()">Settings</li>
+    </ul>
+    <div class="box" id="box1">
+        This section gives a summary of your profile, including your bio, recent activity, and key stats.
+    </div>
+    <div class="box" id="box2">
+        Here you can see all your ongoing and completed projects with details and progress.
+    </div>
+    <div class="box" id="box3">
+        Check your messages and notifications from team members or collaborators.
+    </div>
+    <div class="box" id="box4">
+        Manage your account settings, preferences, and privacy options here.
+    </div>
+
+    <script>
+        function one() {
+            document.querySelector('#tab1').style.opacity = "1";
+            document.querySelector('#tab1').style.borderBottom = "2px solid black";
+            document.querySelector('#tab2').style.opacity = "0.5";
+            document.querySelector('#tab2').style.borderBottom = "0";
+            document.querySelector('#tab3').style.opacity = "0.5";
+            document.querySelector('#tab3').style.borderBottom = "0";
+            document.querySelector('#tab4').style.opacity = "0.5";
+            document.querySelector('#tab4').style.borderBottom = "0";
+            document.querySelector('#box1').style.display = "block";
+            document.querySelector('#box2').style.display = "none";
+            document.querySelector('#box3').style.display = "none";
+            document.querySelector('#box4').style.display = "none";
+        }
+
+        function two() {
+            document.querySelector('#tab1').style.opacity = "0.5";
+            document.querySelector('#tab1').style.borderBottom = "0";
+            document.querySelector('#tab2').style.opacity = "1";
+            document.querySelector('#tab2').style.borderBottom = "2px solid black";
+            document.querySelector('#tab3').style.opacity = "0.5";
+            document.querySelector('#tab3').style.borderBottom = "0";
+            document.querySelector('#tab4').style.opacity = "0.5";
+            document.querySelector('#tab4').style.borderBottom = "0";
+            document.querySelector('#box1').style.display = "none";
+            document.querySelector('#box2').style.display = "block";
+            document.querySelector('#box3').style.display = "none";
+            document.querySelector('#box4').style.display = "none";
+        }
+
+        function three() {
+            document.querySelector('#tab1').style.opacity = "0.5";
+            document.querySelector('#tab1').style.borderBottom = "0";
+            document.querySelector('#tab2').style.opacity = "0.5";
+            document.querySelector('#tab2').style.borderBottom = "0";
+            document.querySelector('#tab3').style.opacity = "1";
+            document.querySelector('#tab3').style.borderBottom = "2px solid black";
+            document.querySelector('#tab4').style.opacity = "0.5";
+            document.querySelector('#tab4').style.borderBottom = "0";
+            document.querySelector('#box1').style.display = "none";
+            document.querySelector('#box2').style.display = "none";
+            document.querySelector('#box3').style.display = "block";
+            document.querySelector('#box4').style.display = "none";
+        }
+
+        function four() {
+            document.querySelector('#tab1').style.opacity = "0.5";
+            document.querySelector('#tab1').style.borderBottom = "0";
+            document.querySelector('#tab2').style.opacity = "0.5";
+            document.querySelector('#tab2').style.borderBottom = "0";
+            document.querySelector('#tab3').style.opacity = "0.5";
+            document.querySelector('#tab3').style.borderBottom = "0";
+            document.querySelector('#tab4').style.opacity = "1";
+            document.querySelector('#tab4').style.borderBottom = "2px solid black";
+            document.querySelector('#box1').style.display = "none";
+            document.querySelector('#box2').style.display = "none";
+            document.querySelector('#box3').style.display = "none";
+            document.querySelector('#box4').style.display = "block";
+        }
+    </script>
+</body>
+</html>
