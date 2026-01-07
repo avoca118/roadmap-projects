@@ -47,7 +47,7 @@ The project starts with a semantic HTML structure, then adds responsive CSS styl
 **Technologies:** HTML5, CSS3  
 
 🔗 [View Project](./personal-portfolio-website)
-🔗 [roadmap.sh project][(https://roadmap.sh/projects/portfolio-website)]
+🔗 [roadmap.sh project](https://roadmap.sh/projects/portfolio-website)
 
 ---
 
@@ -96,6 +96,15 @@ The project focuses on practicing CSS Grid structure, item placement, alignment,
 
 🔗 [View Project](https://github.com/avoca118/roadmap-projects/tree/main/07-image-grid-layout)
 🔗 [roadmap.sh project](https://roadmap.sh/projects/image-grid)
+
+---
+
+### Tooltip UI  
+**Focus:** Hover effects & CSS positioning  
+A tooltip component for navigation items that appears on hover. Built using only HTML and CSS to practice pseudo-elements, positioning, and smooth transitions.
+
+🔗 [View Project](./08-tooltip-ui)
+🔗 [roadmap.sh project](https://roadmap.sh/projects/tooltip-ui)
 
 ---
 
