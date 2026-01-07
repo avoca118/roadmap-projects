@@ -114,6 +114,16 @@ A tooltip component for navigation items that appears on hover. Built using only
 
 ---
 
+# Simple Tabs Project
+**Focus:** Basic DOM manipulation & event handling  
+
+A beginner-friendly project demonstrating a simple **tabs interface** using HTML, CSS, and JavaScript. This project focuses on selecting DOM elements, handling click events, and dynamically showing/hiding content based on user interaction. The first tab is active by default, and clicking another tab switches the displayed content.
+
+🔗 [View Project](https://github.com/avoca118/roadmap-projects/tree/main/09-tabs)  
+🔗 [roadmap.sh project](https://roadmap.sh/projects/simple-tabs)
+
+---
+
 ## 👩‍💻 Author
 **May Nyein Chan**  
 Frontend learner following the roadmap.sh frontend roadmap.
