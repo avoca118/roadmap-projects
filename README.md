@@ -29,7 +29,6 @@ A multi-section HTML website demonstrating proper use of semantic elements such 
 The project focuses only on structure, preparing the site for future styling.
 
 🔗 [View Project](./01-basic-html-website) 
-
 🔗 [roadmap.sh project](https://roadmap.sh/projects/basic-html-website)
 
 ---
