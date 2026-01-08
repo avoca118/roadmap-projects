@@ -124,6 +124,15 @@ A beginner-friendly project demonstrating a simple **tabs interface** using HTML
 
 ---
 
+# Cookie Consent
+**Focus:** DOM manipulation & event handling  
+
+A simple cookie consent banner built using JavaScript. The project demonstrates how to display a consent popup, handle user interactions, and persist user preferences using browser storage to prevent the popup from appearing on subsequent visits.
+
+🔗 [View Project](https://github.com/avoca118/roadmap-projects/tree/main/10-cookie-consent)
+🔗 [roadmap.sh project](https://roadmap.sh/projects/cookie-consent)
+
+
 ## 👩‍💻 Author
 **May Nyein Chan**  
 Frontend learner following the roadmap.sh frontend roadmap.
