@@ -108,12 +108,6 @@ A tooltip component for navigation items that appears on hover. Built using only
 
 ---
 
-## 🛠 Technologies Used
-- HTML5  
-- CSS3  
-
----
-
 # Simple Tabs Project
 **Focus:** Basic DOM manipulation & event handling  
 
@@ -129,7 +123,7 @@ A beginner-friendly project demonstrating a simple **tabs interface** using HTML
 
 A simple cookie consent banner built using JavaScript. The project demonstrates how to display a consent popup, handle user interactions, and persist user preferences using browser storage to prevent the popup from appearing on subsequent visits.
 
-🔗 [View Project](https://github.com/avoca118/roadmap-projects/tree/main/10-cookie-consent)
+🔗 [View Project](https://github.com/avoca118/roadmap-projects/tree/main/10-cookie-consent)  
 🔗 [roadmap.sh project](https://roadmap.sh/projects/cookie-consent)
 
 
