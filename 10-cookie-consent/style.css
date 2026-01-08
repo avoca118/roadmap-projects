@@ -1,0 +1,61 @@
+/* Importing the required fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300..900&display=swap');
+
+/* Defining CSS Variables and basic body styles */
+:root {
+    --primary-text: #000;
+    --accent-pink: #e77080;
+    --light-bg: #FFDDE1;
+    --hover-bg: #fcf3f3;
+}
+
+body {
+    /* Set font from the import */
+    font-family: 'Lora', serif;
+    /* Apply color variables */
+    color: var(--primary-text);
+    background-color: var(--light-bg);
+    font-family: 'Nunito', sans-serif;
+}
+
+.cookie {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    z-index: 1000;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.cookie-bite {
+    font-size: 2rem;
+}
+
+.text {
+    font-size: 1.3rem;
+}
+
+.box {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}

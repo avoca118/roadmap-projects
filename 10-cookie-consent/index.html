@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css"> 
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Font Awesome for the icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="min-h-screen">
+    
+    <!-- Navigation Bar -->
+    <nav class="flex justify-center md:justify-around items-center h-20 px-4 md:px-8 shadow-sm">
+        <div class="logo flex items-center space-x-2 text-xl md:text-2xl font-bold">
+            <i class="fa-solid fa-mug-hot text-2xl text-black"></i>
+            <h2>Nimbus Coffee</h2>
+        </div>
+        <div class="hidden lg:block">
+            <ul class="flex space-x-6 uppercase text-sm font-medium">
+                <a href="#home" class="p-2 rounded-lg transition-colors hover:bg-[var(--hover-bg)] hover:text-[var(--accent-pink)]"><li>Home</li></a>
+                <a href="#about" class="p-2 rounded-lg transition-colors hover:bg-[var(--hover-bg)] hover:text-[var(--accent-pink)]"><li>About Us</li></a>
+                <a href="#menu" class="p-2 rounded-lg transition-colors hover:bg-[var(--hover-bg)] hover:text-[var(--accent-pink)]"><li>Menu</li></a>
+                <a href="#" class="p-2 rounded-lg transition-colors hover:bg-[var(--hover-bg)] hover:text-[var(--accent-pink)]"><li>Locations</li></a>
+                <a href="#" class="p-2 rounded-lg transition-colors hover:bg-[var(--hover-bg)] hover:text-[var(--accent-pink)]"><li>News</li></a>
+                <a href="#" class="p-2 rounded-lg transition-colors hover:bg-[var(--hover-bg)] hover:text-[var(--accent-pink)]"><li>Contact</li></a>
+                <a href="#" class="p-2 rounded-lg transition-colors hover:bg-[var(--hover-bg)] hover:text-[var(--accent-pink)]"><li>Setting</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section (Hero) -->
+    <section id="home" class="flex flex-col items-center justify-center min-h-[calc(100vh-80px)] text-center px-4 pt-10 pb-20">
+        <div class="max-w-4xl mx-auto">
+            <!-- Heading Structure for Centering -->
+            <h1 class="text-5xl sm:text-7xl font-extrabold mb-4 leading-tight tracking-tighter">
+                We Brew Moments That Energize
+                <span class="text-[var(--accent-pink)] block sm:inline-block">And Inspire</span>
+            </h1>
+        </div>
+        
+        <!-- Adjusted Paragraph Alignment -->
+        <p class="text-lg md:text-xl max-w-2xl mt-6 text-gray-700">A quiet corner, the aroma of fresh beans, and the perfect place to pause.</p>
+        
+        <div class="more flex space-x-4 mt-8">
+            <button class="py-3 px-6 bg-[var(--accent-pink)] text-white font-semibold rounded-xl transition-colors shadow-lg hover:bg-white hover:text-[var(--accent-pink)] hover:border border-[var(--accent-pink)]">Explore</button>
+            <button class="py-3 px-6 bg-transparent text-[var(--accent-pink)] font-semibold rounded-xl border border-[var(--accent-pink)] transition-colors hover:bg-[var(--hover-bg)]">Message Us</button>
+        </div>
+
+        <div class="cookie" id="cookie">
+            <div class="icons">
+                <i class="fa-solid fa-cookie-bite cookie-bite"></i>
+                <button id="xmark" type="button" aria-label="Close cookie banner"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="text">
+                <p>We use cookies to improve your user experience.</p>
+            </div>
+            <div class="box">
+                <button id="accept" type="button" aria-label="Close cookie banner">Accept Cookies</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 md:px-8 bg-white flex flex-col lg:flex-row items-center justify-center space-y-10 lg:space-y-0 lg:space-x-12">
+        <div class="text2 max-w-lg lg:w-1/2">
+            <h1 class="text-3xl md:text-4xl font-bold">Welcome to Nimbus Coffee</h1>
+            <h2 class="text-4xl text-[var(--accent-pink)]">______</h2>
+            <br>
+            <p class="mt-4 text-gray-700 leading-relaxed">At Nimbus Coffee, we craft magic in every cup—from ethically sourced beans to small-batch roasting. Our space is designed to be your haven, where the rich aroma of coffee blends with the warmth of shared moments, inviting you to slow down and savor.</p>
+            <br>
+            <p class="text-gray-700 leading-relaxed">More than a coffee shop, we are a community. Whether it is your morning ritual or an afternoon pause, we promise care in every detail. Here, every sip reconnects you to life's simple joys.</p>
+            <button class="mt-6 py-3 px-6 bg-[var(--accent-pink)] text-white font-semibold rounded-xl transition-colors shadow-lg hover:bg-white hover:text-[var(--accent-pink)] hover:border border-[var(--accent-pink)]">Explore</button>
+        </div>
+        <div class="image lg:w-1/2 flex justify-center lg:justify-end">
+            <!-- Using a placeholder image as local file paths are not available -->
+            <img src="img/48bf4c30fac53b0a1be952617433cf74.jpg" alt="Coffee" class="w-full max-w-lg h-auto rounded-3xl shadow-2xl object-cover">
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-20 px-4 md:px-8 bg-[var(--light-bg)]">
+        <h1 class="text-4xl font-bold text-center mb-12">Our Menu Favorites</h1>
+        
+        <div class="space-y-10">
+            <!-- Container 1 -->
+            <div class="container bg-white p-6 md:p-10 rounded-3xl shadow-xl flex flex-wrap justify-center gap-8">
+                
+                <div class="box1 w-full sm:w-64 flex flex-col items-center text-center">
+                    <img src="img/espresso.jpg" alt="Espresso" class="w-48 h-48 rounded-xl object-cover mb-4">
+                    <h2 class="text-2xl font-semibold text-[var(--accent-pink)]">Espresso</h2>
+                    <p class="mt-2 text-gray-600">Rich and bold, our espresso is the heart of every coffee creation.</p>
+                </div>
+
+                <div class="box2 w-full sm:w-64 flex flex-col items-center text-center">
+                    <img src="img/latte.jpg" alt="Latte" class="w-48 h-48 rounded-xl object-cover mb-4">
+                    <h2 class="text-2xl font-semibold text-[var(--accent-pink)]">Latte</h2>
+                    <p class="mt-2 text-gray-600">Silky smooth with a touch of foam, our latte is a comforting classic.</p>
+                </div>
+
+                <div class="box3 w-full sm:w-64 flex flex-col items-center text-center">
+                    <img src="img/cappuccino.jpg" alt="Cappuccino" class="w-48 h-48 rounded-xl object-cover mb-4">
+                    <h2 class="text-2xl font-semibold text-[var(--accent-pink)]">Cappuccino</h2>
+                    <p class="mt-2 text-gray-600">Perfectly balanced with equal parts espresso, steamed milk, and foam.</p>
+                </div>
+            </div>
+
+            <!-- Container 2 -->
+            <div class="container2 bg-white p-6 md:p-10 rounded-3xl shadow-xl flex flex-wrap justify-center gap-8">
+                <div class="box4 w-full sm:w-64 flex flex-col items-center text-center">
+                    <img src="img/mocha.jpg" alt="Mocha" class="w-48 h-48 rounded-xl object-cover mb-4">
+                    <h2 class="text-2xl font-semibold text-[var(--accent-pink)]">Mocha</h2>
+                    <p class="mt-2 text-gray-600">A delightful blend of espresso, chocolate, and steamed milk.</p>
+                </div>
+
+                <div class="box5 w-full sm:w-64 flex flex-col items-center text-center">
+                    <img src="img/coldBrew.jpg" alt="Cold Brew" class="w-48 h-48 rounded-xl object-cover mb-4">
+                    <h2 class="text-2xl font-semibold text-[var(--accent-pink)]">Cold Brew</h2>
+                    <p class="mt-2 text-gray-600">Slow-steeped for a smooth, refreshing coffee experience.</p>
+                </div>
+
+                <div class="box6 w-full sm:w-64 flex flex-col items-center text-center">
+                    <img src="img/hotChocolate.jpg" alt="Hot Chocolate" class="w-48 h-48 rounded-xl object-cover mb-4">
+                    <h2 class="text-2xl font-semibold text-[var(--accent-pink)]">Hot Chocolate</h2>
+                    <p class="mt-2 text-gray-600">Warm and comforting, our hot chocolate is a classic favorite.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js" defer></script>
+</body>
+</html>
