@@ -126,7 +126,21 @@ A simple cookie consent banner built using JavaScript. The project demonstrates 
 🔗 [View Project](https://github.com/avoca118/roadmap-projects/tree/main/10-cookie-consent)  
 🔗 [roadmap.sh project](https://roadmap.sh/projects/cookie-consent)
 
+---
 
+# Restricted Textarea
+
+**Focus:** JavaScript DOM manipulation, input events, real-time user feedback  
+
+A simple interactive project that implements a **textarea with a live character counter and a maximum character limit**.  
+The character count updates dynamically as the user types, and visual feedback is provided when the limit is reached.
+
+🔗 [View Project](./11-restricted-textarea)  
+🔗 [roadmap.sh project](https://roadmap.sh/projects/restricted-textarea)
+
+---
+
+No frameworks or libraries are used.
 ## 👩‍💻 Author
 **May Nyein Chan**  
 Frontend learner following the roadmap.sh frontend roadmap.
