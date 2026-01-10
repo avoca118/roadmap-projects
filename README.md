@@ -108,7 +108,7 @@ A tooltip component for navigation items that appears on hover. Built using only
 
 ---
 
-# Simple Tabs Project
+### Simple Tabs Project
 **Focus:** Basic DOM manipulation & event handling  
 
 A beginner-friendly project demonstrating a simple **tabs interface** using HTML, CSS, and JavaScript. This project focuses on selecting DOM elements, handling click events, and dynamically showing/hiding content based on user interaction. The first tab is active by default, and clicking another tab switches the displayed content.
@@ -118,7 +118,7 @@ A beginner-friendly project demonstrating a simple **tabs interface** using HTML
 
 ---
 
-# Cookie Consent
+### Cookie Consent
 **Focus:** DOM manipulation & event handling  
 
 A simple cookie consent banner built using JavaScript. The project demonstrates how to display a consent popup, handle user interactions, and persist user preferences using browser storage to prevent the popup from appearing on subsequent visits.
@@ -128,19 +128,19 @@ A simple cookie consent banner built using JavaScript. The project demonstrates 
 
 ---
 
-# Restricted Textarea
+### Restricted Textarea
 
 **Focus:** JavaScript DOM manipulation, input events, real-time user feedback  
 
 A simple interactive project that implements a **textarea with a live character counter and a maximum character limit**.  
 The character count updates dynamically as the user types, and visual feedback is provided when the limit is reached.
+No frameworks or libraries are used.
 
 🔗 [View Project](./11-restricted-textarea)  
 🔗 [roadmap.sh project](https://roadmap.sh/projects/restricted-textarea)
 
 ---
 
-No frameworks or libraries are used.
 ## 👩‍💻 Author
 **May Nyein Chan**  
 Frontend learner following the roadmap.sh frontend roadmap.
