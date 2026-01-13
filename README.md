@@ -152,6 +152,15 @@ A simple accordion component built using vanilla HTML, CSS, and JavaScript. The 
 
 ---
 
+# Age Calculator
+
+Focus: JavaScript, js-datepicker, Luxon  
+
+A simple age calculator that allows users to select their birthdate using a **JavaScript datepicker** and calculates their exact age in **years, months, and days**.  
+
+🔗 View Project: [Add your deployed link here]  
+🔗 roadmap.sh Project: [https://roadmap.sh/projects/age-calculator]
+
 ## 👩‍💻 Author
 **May Nyein Chan**  
 Frontend learner following the roadmap.sh frontend roadmap.
