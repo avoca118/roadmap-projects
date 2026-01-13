@@ -141,6 +141,17 @@ No frameworks or libraries are used.
 
 ---
 
+### Accordion Component
+
+**Focus:** HTML, CSS, JavaScript
+
+A simple accordion component built using vanilla HTML, CSS, and JavaScript. The project demonstrates how to create an interactive UI where only one section can be expanded at a time. Users can click on a question to reveal its content, while any previously opened section collapses automatically. This keeps the layout clean and organized.
+
+🔗 [View Project](./12-accordion)  
+🔗 [roadmap.sh project](https://roadmap.sh/projects/accordion)
+
+---
+
 ## 👩‍💻 Author
 **May Nyein Chan**  
 Frontend learner following the roadmap.sh frontend roadmap.
