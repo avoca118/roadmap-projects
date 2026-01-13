@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Accordion</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300..900&display=swap');
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .accordion {
+            background-color: black;
+            color: white;
+            width: 400px;
+            min-width: 50%;
+            min-height: 40px;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .question {
+            padding: 12px;
+        }
+        
+        .icon {
+            all: unset;
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            cursor: pointer;
+        }
+
+        .answer-box {
+            border: 2px solid black;
+            padding: 5px 10px;
+            background-color: white;
+            color: black;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Frequently Asked Questions</h2>
+    <p>Here are some of the frequently asked questions</p>
+
+    <div class="accordion">
+        <p class="question">What is this platform about?</p>
+
+        <button class="icon" id="icon1"><i class="fa-solid fa-angle-down"></i></button>
+
+        <div class="answer-box" id="answer-box1">
+            <p class="answer" id="answer">This platform is designed to provide helpful resources, tools, and guidance to support users in learning, building skills, and completing projects efficiently.</p>
+        </div>
+    </div>
+
+    <div class="accordion">
+        <p class="question">Who can use this platform?</p>
+
+        <button class="icon" id="icon2"><i class="fa-solid fa-angle-down"></i></button>
+
+        <div class="answer-box" id="answer-box2">
+            <p class="answer" id="answer">Anyone interested in learning, improving their skills, or exploring new topics can use this platform. It is suitable for beginners, students, and self-learners.</p>
+        </div>
+    </div>
+
+    <div class="accordion">
+        <p class="question">Do I need an account to get started?</p>
+
+        <button class="icon" id="icon3"><i class="fa-solid fa-angle-down"></i></button>
+
+        <div class="answer-box" id="answer-box3">
+            <p class="answer" id="answer">No account is required to explore the content. However, creating an account may unlock additional features such as progress tracking and saved resources.</p>
+        </div>
+    </div>
+
+    <div class="accordion">
+        <p class="question">Is this platform free to use?</p>
+
+        <button class="icon" id="icon4"><i class="fa-solid fa-angle-down"></i></button>
+
+        <div class="answer-box" id="answer-box4">
+            <p class="answer" id="answer">Yes, the core content is free to access. Some advanced features or future updates may be offered as optional upgrades.</p>
+        </div>
+    </div>
+
+    <div class="accordion">
+        <p class="question">How often is the content updated?</p>
+
+        <button class="icon" id="icon5"><i class="fa-solid fa-angle-down"></i></button>
+
+        <div class="answer-box" id="answer-box5">
+            <p class="answer" id="answer">The content is updated regularly to ensure accuracy, relevance, and alignment with current learning trends and user feedback.</p>
+        </div>
+    </div>
+
+    <div class="accordion">
+        <p class="question">How can I get support or give feedback?</p>
+
+        <button class="icon" id="icon6"><i class="fa-solid fa-angle-down"></i></button>
+
+        <div class="answer-box" id="answer-box6">
+            <p class="answer" id="answer">You can reach out through the contact section or submit feedback directly on the platform. Suggestions and improvement ideas are always welcome.</p>
+        </div>
+    </div>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
