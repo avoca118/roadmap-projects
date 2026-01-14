@@ -1,5 +1,5 @@
 # roadmap-projects
-Collection of projects built for roadmap.sh
+Collection of frontend projects built for roadmap.sh
 
 # Roadmap.sh Projects
 
@@ -160,6 +160,18 @@ A simple age calculator that allows users to select their birthdate using a **Ja
 
 🔗 View Project: [./13-age-calculator]  
 🔗 roadmap.sh Project: [https://roadmap.sh/projects/age-calculator]
+
+---
+
+### Flash Cards App
+
+**Focus:** JavaScript, State Management, UI Interaction
+
+A simple flash cards application built with HTML, CSS, and JavaScript.  
+This project allows users to navigate through pre-defined flashcards, flip cards to reveal answers, and track their progress using a visual progress bar.
+
+🔗 View Project: [./14-flash-cards]  
+🔗 roadmap.sh Project: [https://roadmap.sh/projects/flash-cards]
 
 ---
 
