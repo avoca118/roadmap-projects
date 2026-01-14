@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Flash Cards</title>
+</head>
+<body>
+    <h3>Flash Cards</h3>
+
+    <div class="progress-container">
+        <div class="progress-track">
+            <div class="progress-fill"></div>
+        </div>
+        <div class="progress-info">
+            <span id="progress-percent">0%</span>
+            <span id="progress-count">1 of 3</span>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="text">
+            <h2 id="answer-place1">What is JavaScript?</h2>
+        </div>
+
+        <div class="keys">
+            <div class="buttons">
+                <i class="fa-solid fa-angle-left icon1"></i>
+                <button>Previous</button>
+            </div>
+
+            <button id="showAnswer1">Show Answer</button>
+
+            <div class="buttons">
+                <i class="fa-solid fa-angle-right icon2"></i> 
+                <button>Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js" defer></script>
+</body>
+</html>
